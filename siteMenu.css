@@ -269,8 +269,18 @@ h4{
 
 /* section Slider */
 
-
- .section_slider{
+.carousel-fade{
+   position: absolute;
+   top:155px;
+   right: 25px;
+   width: 380px;
+   height: 350px;
+  
+}
+.d-block{
+   border-radius: 8px;
+}
+ /* .section_slider{
    display: flex;
    max-width: 350px;
     width: 100%; 
@@ -301,7 +311,7 @@ transform: translateY(90px);
 .slider .fa-arrow-right{
    transform: translateY(90px); 
  
-}
+} */
 
 .img-box img{
 width: 350px;

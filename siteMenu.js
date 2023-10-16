@@ -121,35 +121,35 @@ function contacts (){
 contacts();
   // sliders
 
-  const sliderImg = document.querySelector(".slider-img"),
-        prevBtn = document.querySelector('.prev-btn'),
-        nextBtn = document.querySelector('.next-btn');
+  // const sliderImg = document.querySelector(".slider-img"),
+  //       prevBtn = document.querySelector('.prev-btn'),
+  //       nextBtn = document.querySelector('.next-btn');
 
-        prevBtn.addEventListener('click',prev);
-        nextBtn.addEventListener('click',next);
+  //       prevBtn.addEventListener('click',prev);
+  //       nextBtn.addEventListener('click',next);
 
-  const images = [
-    "caption1.jpg",
-    "caption2.jpg",
-    "caption3.jpg",
-    "caption4.jpg",
-    "caption5.jpg",
-  ];
+  // const images = [
+  //   "caption1.jpg",
+  //   "caption2.jpg",
+  //   "caption3.jpg",
+  //   "caption4.jpg",
+  //   "caption5.jpg",
+  // ];
 
-  let sliderIndex = 0;
+  // let sliderIndex = 0;
 
-  function prev() {
-    if (sliderIndex <= 0) sliderIndex = images.length;
-    sliderIndex--;
-    return showSlide();
-  }
+  // function prev() {
+  //   if (sliderIndex <= 0) sliderIndex = images.length;
+  //   sliderIndex--;
+  //   return showSlide();
+  // }
 
-  function next() {
-    if (sliderIndex >= images.length - 1) sliderIndex = -1;
-    sliderIndex++;
-    return showSlide();
-  }
+  // function next() {
+  //   if (sliderIndex >= images.length - 1) sliderIndex = -1;
+  //   sliderIndex++;
+  //   return showSlide();
+  // }
 
-  function showSlide() {
-    return sliderImg.setAttribute("src", "img/slider/" + images[sliderIndex]);
-  }
+  // function showSlide() {
+  //   return sliderImg.setAttribute("src", "img/slider/" + images[sliderIndex]);
+  // }
